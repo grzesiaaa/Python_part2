@@ -117,7 +117,5 @@ def graphic_converter():
     root.mainloop()
 
 
-"""if __name__=="__main__":
-    graphic_converter()"""
-
-graphic_converter()
+if __name__=="__main__":
+    graphic_converter()
