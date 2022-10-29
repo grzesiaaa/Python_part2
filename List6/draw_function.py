@@ -184,5 +184,3 @@ def draw_functions():
 
 if __name__ == '__main__':
     draw_functions()
-
-draw_functions()
