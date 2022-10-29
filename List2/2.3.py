@@ -13,6 +13,6 @@ def generate_zip_copy(catalog_name: str):
         for path, directories, files in os.walk(catalog_name):
             for filename in files:
                 file_paths = os.path.join(path, filename)
-                zip_arch.write(file_paths)  # spytać
+                zip_arch.write(file_paths) 
 
 
